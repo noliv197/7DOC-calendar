@@ -4,11 +4,11 @@
 | -------------  | --- |
 | :sparkles: Name        | **Calendar**
 | :label: Build with | html, css, javascript
-| :rocket: URL         | http://crud-calendar.vercel.app
+| :rocket: URL         | http://calendar-two-chi.vercel.app
 | :fire: Challenge     | http://7daysofcode.io/matricula/javascript-e-dom
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://i.imgur.com/ljRyJnX.gifv#vitrinedev)
 
 ## About The Project
 <img src="http://img.shields.io/static/v1?label=Development&message=Finished&color=GREEN&style=for-the-badge"/>
