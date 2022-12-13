@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="calendar.png">
+</head>
+<body>
+    <h1 class="destaque">Meus Aniversários</h1>
+    <main>
+        <h2 class="titulo">Cadastro</h2>
+        <form class="formulario" data-form>
+            <label for="name">Nome do Aniversariante (campo obrigatório)</label>
+            <input class="input__formulario" data-tipo="nome" id="nome" maxlength="75" minlength="3" required type="text" placeholder="Digite o nome do aniversariante. Ex.: Jõao Silva">
+            <div data-erro></div>
+            
+            <label for="birth-date">Data de Nascimento (campo obrigatório)</label>
+            <input class="input__formulario" data-tipo="data" id="data" required type="date" >
+            <div data-erro></div>
+            
+            <button class="btn" type="submit">Salvar</button>
+        </form>
+        
+        <div id="mensagemView"></div>
+        <div id="tabelaView"></div>
+    </main>
+    <footer>
+        <span>Desenvolvido por Natália Oliveira</span>
+        <br><br>
+        <span>2022</span>
+        <br><br>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

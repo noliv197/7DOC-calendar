@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    padding: 2rem;
+}
+footer{
+    text-align: center;
+}
+.destaque{
+    background-color: #528ed3;
+    color: aliceblue;
+    font-size: 3em;
+    padding: 3rem 0;
+    text-align: center;
+}
+.titulo{
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+.texto__erro{
+    color: red;
+    font-weight: 500;
+    font-size: .75em;
+    margin-bottom: .5rem;
+    padding: 0 0 .5rem .5rem;
+}
+.formulario{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 500px;
+}
+.formulario label{
+    color: #746868;
+}
+.formulario input{
+    border: none;
+    border-radius: 4px;
+    background-color: #e7e1e1;
+    box-sizing: border-box;
+    padding: .5rem;
+    margin: .5rem 0 1rem 0;
+    width: 100%;
+}
+.input__invalido{
+    border: 1px solid red;
+}
+.alerta{
+    background-color: #9dcbff;
+    border-radius: 4px;
+    margin: 1rem auto;
+    padding: .5rem;
+}
+.btn{
+    background-color: #52d395;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem 2rem;
+}
+.btn__acao{
+    background-color: #ffffff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: #288759;
+    cursor: pointer;
+}
+.btn__acao:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.btn--edicao{
+    color: #25b56f;
+}
+.btn--deletar{
+    color: red;
+}
+.tabela{
+    margin: 2rem auto;
+    text-align: left;
+}
+.tabela,
+.tabela th,
+.tabela td,
+.tabela tr{
+    border: 2px solid #e7e1e1;
+    padding: 1rem;
+}
+thead{
+    font-weight: 600;
+}
+tbody{
+    line-height: 25px;
+}
+.coluna__nome{
+    width: 420px;
+}
+.coluna__data{
+    width: 260px;
+}
+.coluna__acao{
+    width: 160px;
+}
+
+@media screen and (max-width: 980px){
+    .formulario{
+        width: 400px;
+    }
+    .coluna__nome{
+        width: 200px;
+    }
+    .coluna__data{
+        width: 170px;
+    }
+    .coluna__acao{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 470px){
+    main{
+        padding: 1rem;
+    }
+    .formulario{
+        width: 300px;
+    }
+}
